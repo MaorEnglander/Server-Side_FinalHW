@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "oEMziLpOMkax2aPx+8Pw01lrd3lqs3UI36OiZ/jwF2w=",
+  "Source": "MyServer",
+  "BasePath": "_content/MyServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

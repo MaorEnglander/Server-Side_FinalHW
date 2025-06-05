@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Server-Side\\FinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|c:\\server-side\\finalproject\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|c:\\server-side\\finalproject\\server\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|solutionrelative:server\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|c:\\server-side\\finalproject\\server\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|solutionrelative:server\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1DAA82-5966-47D1-91A2-6BB1D2577EE6}|FinalProject\\Data.csproj|c:\\server-side\\finalproject\\finalproject\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1DAA82-5966-47D1-91A2-6BB1D2577EE6}|FinalProject\\Data.csproj|solutionrelative:finalproject\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1DAA82-5966-47D1-91A2-6BB1D2577EE6}|FinalProject\\Data.csproj|c:\\server-side\\finalproject\\finalproject\\models\\eventscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1DAA82-5966-47D1-91A2-6BB1D2577EE6}|FinalProject\\Data.csproj|solutionrelative:finalproject\\models\\eventscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|c:\\server-side\\finalproject\\server\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|solutionrelative:server\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|c:\\server-side\\finalproject\\server\\dto\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|solutionrelative:server\\dto\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1DAA82-5966-47D1-91A2-6BB1D2577EE6}|FinalProject\\Data.csproj|c:\\server-side\\finalproject\\finalproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1DAA82-5966-47D1-91A2-6BB1D2577EE6}|FinalProject\\Data.csproj|solutionrelative:finalproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|c:\\server-side\\finalproject\\server\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|solutionrelative:server\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|c:\\server-side\\finalproject\\server\\dto\\eventscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41A746-4975-4FD9-A807-FF25290440A6}|Server\\MyServer.csproj|solutionrelative:server\\dto\\eventscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventsContext.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\FinalProject\\Models\\EventsContext.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\EventsContext.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\FinalProject\\Models\\EventsContext.cs",
+              "RelativeToolTip": "FinalProject\\Models\\EventsContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:09:27.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\FinalProject\\Repository.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Repository.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\FinalProject\\Repository.cs",
+              "RelativeToolTip": "FinalProject\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:23:20.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\Server\\Services\\Service.cs",
+              "RelativeDocumentMoniker": "Server\\Services\\Service.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\Server\\Services\\Service.cs",
+              "RelativeToolTip": "Server\\Services\\Service.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:24:56.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "eventController.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\Server\\Controllers\\eventController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\eventController.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\Server\\Controllers\\eventController.cs",
+              "RelativeToolTip": "Server\\Controllers\\eventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:33:04.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\FinalProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Models\\User.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\FinalProject\\Models\\User.cs",
+              "RelativeToolTip": "FinalProject\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:41:36.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:47:39.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherDTO.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\Server\\DTO\\WeatherDTO.cs",
+              "RelativeDocumentMoniker": "Server\\DTO\\WeatherDTO.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\Server\\DTO\\WeatherDTO.cs",
+              "RelativeToolTip": "Server\\DTO\\WeatherDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:06:01.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\Server\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Server\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\Server\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "Server\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:26:08.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventScheduleDTO.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\Server\\DTO\\EventScheduleDTO.cs",
+              "RelativeDocumentMoniker": "Server\\DTO\\EventScheduleDTO.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\Server\\DTO\\EventScheduleDTO.cs",
+              "RelativeToolTip": "Server\\DTO\\EventScheduleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:25:32.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventDTO.cs",
+              "DocumentMoniker": "C:\\Server-Side\\FinalProject\\Server\\DTO\\EventDTO.cs",
+              "RelativeDocumentMoniker": "Server\\DTO\\EventDTO.cs",
+              "ToolTip": "C:\\Server-Side\\FinalProject\\Server\\DTO\\EventDTO.cs",
+              "RelativeToolTip": "Server\\DTO\\EventDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:25:28.728Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

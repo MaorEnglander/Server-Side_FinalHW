@@ -49,11 +49,11 @@ namespace Server.Controllers
             }
         }
         [HttpPost("{id}/registration")]
-        public ActionResult RegisterUserToEvent([FromBody] EventUserDTO ev)
+        public ActionResult RegisterUserToEvent(int id,[FromBody] EventUserDTO ev)
         {
             try
             {
-                _service.RegisterUserToEvent(ev.UserRef, ev.EventRef);
+                _service.RegisterUserToEvent(ev.UserRef, id);
                 return Ok();
             }
             catch (Exception ex)
@@ -115,32 +115,6 @@ namespace Server.Controllers
         }
 
 
-        public class schedule : ControllerBase
-        {
-            private readonly Service _service;
-            public schedule(Service _service)
-            {
-                this._service = _service;
-            }
-
-            [HttpGet]
-            public ActionResult GetAllEventSchedule()
-            {
-                try
-                {
-                    return Ok(_service.getEventsSchedule());
-                }
-                catch (Exception ex)
-                {
-                    return NotFound("The list is empty");
-                }
-            }
-
-
-
-
-
-        }
     }
 }
     

@@ -90,3 +90,4 @@ C:\Server-Side\FinalProject\Server\obj\Debug\net8.0\staticwebassets.upToDateChec
 C:\Server-Side\FinalProject\Server\obj\Debug\net8.0\MyServer.csproj.Up2Date
 C:\Server-Side\FinalProject\Server\obj\Debug\net8.0\MyServer.genruntimeconfig.cache
 C:\Server-Side\FinalProject\Server\obj\Debug\net8.0\ref\MyServer.dll
+C:\Server-Side\FinalProject\Server\obj\Debug\net8.0\MyServer.sourcelink.json

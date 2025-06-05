@@ -12,3 +12,4 @@ C:\Server-Side\FinalProject\FinalProject\obj\Debug\net8.0\refint\Data.dll
 C:\Server-Side\FinalProject\FinalProject\obj\Debug\net8.0\Data.pdb
 C:\Server-Side\FinalProject\FinalProject\obj\Debug\net8.0\Data.genruntimeconfig.cache
 C:\Server-Side\FinalProject\FinalProject\obj\Debug\net8.0\ref\Data.dll
+C:\Server-Side\FinalProject\FinalProject\obj\Debug\net8.0\Data.sourcelink.json

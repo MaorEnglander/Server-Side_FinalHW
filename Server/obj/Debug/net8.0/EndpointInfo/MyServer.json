@@ -94,7 +94,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -230,6 +231,18 @@
           }
         }
       }
+    },
+    "/schedule": {
+      "get": {
+        "tags": [
+          "schedule"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -346,10 +359,6 @@
       "EventUserDTO": {
         "type": "object",
         "properties": {
-          "eventRef": {
-            "type": "integer",
-            "format": "int32"
-          },
           "userRef": {
             "type": "integer",
             "format": "int32"

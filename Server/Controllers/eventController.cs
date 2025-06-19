@@ -3,6 +3,7 @@ using FinalProject.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Server.Services;
+using Microsoft.AspNetCore.Cors;
 
 namespace Server.Controllers
 {
@@ -63,6 +64,8 @@ namespace Server.Controllers
 
         }
         [HttpGet("{id}")]
+        [EnableCors("corsapp")]
+
         public ActionResult getEvent(int id)
         {
             try
@@ -113,6 +116,21 @@ namespace Server.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("bydate")]
+        public ActionResult<List<EventDTO>> GetEventsByDate([FromQuery] DateTime date)
+        {
+            try
+            {
+                var result = _service.RetrieveEventsByDate(date);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
 
 
     }

@@ -1,0 +1,46 @@
+﻿body {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+header{
+    grid-area: header;
+}
+#myContainer{
+    display: grid;
+    grid-template-areas: 'header header header'
+               'article article aside';
+}
+aside {
+    grid-area: aside;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content:center;
+}
+article{
+    grid-area: article;
+}
+#btnGroup {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+}
+.btnStyle{
+    background-color:aquamarine;
+}
+header h1 {
+    color: dodgerblue;
+    text-align: center;
+}
+#myEvents{
+    border: 10px solid orange;
+    padding: 20px;
+}
+.eventStyle{
+    border: 5px solid purple;
+    text-align:center;
+}
+.hideElement{
+    display: none;
+}

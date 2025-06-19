@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="myContainer">
+        <header>
+            <h1>MyEventManager</h1>
+
+        </header>
+        <aside>
+            <div id="btnGroup">
+                <button id="createBtn" class="btnStyle">create</button>
+                <button id="updateBtn" class="btnStyle">update</button>
+                <button id="deleteBtn" class="btnStyle">delete</button>
+                <button id="IdSearchBtn" class="btnStyle">show</button>
+            </div>
+            <input id="IdSearchInput" placeholder="insert Id" />
+            Events during:
+                <input id="eventDate" type="date" />
+        </aside>
+        <article>
+            <div id="myEvents">
+                <h2>My events:</h2>
+                
+            </div>
+            <div id="form">
+                <div id="name"></div>
+                <input type="date" id="startInput" />
+                <input type="date" id="endInput" />
+                <input type="number" id="maxInput" />
+                <label for="locationSelect">Choose event location:</label>
+                <select id="locationSelect">
+                    <option value="">-- Please choose a location --</option>
+                    <option value="tel-aviv">Tel Aviv</option>
+                    <option value="jerusalem">Jerusalem</option>
+                    <option value="haifa">Haifa</option>
+                    <option value="herzliya">Herzliya</option>
+                    <option value="netanya">Netanya</option>
+                    <option value="modiin">Modi'in</option>
+                    <option value="rehovot">Rehovot</option>
+                    <option value="holon">Holon</option>
+                    <option value="ramat-gan">Ramat Gan</option>
+                    <option value="petah-tikva">Petah Tikva</option>
+                    <option value="beersheba">Be'er Sheva</option>
+                    <option value="eilat">Eilat</option>
+                    <option value="expo-tel-aviv">EXPO Tel Aviv (גני התערוכה)</option>
+                    <option value="hangar-11">Hangar 11, Tel Aviv</option>
+                    <option value="heichal-hatarbut">Heichal Hatarbut, Tel Aviv</option>
+                    <option value="binyanei-hauma">ICC Jerusalem (Binyanei Ha'Uma)</option>
+                    <option value="yesplanet-jerusalem">Yes Planet, Jerusalem</option>
+                    <option value="pais-arena">Pais Arena, Jerusalem</option>
+                    <option value="habima-theater">Habima Theater, Tel Aviv</option>
+                    <option value="cameri-theater">Cameri Theater, Tel Aviv</option>
+                    <option value="raanana-park">Raanana Park Amphitheater</option>
+                    <option value="amphi-kfar-saba">Kfar Saba Amphitheater</option>
+                    <option value="gan-haatzmaut">Independence Park, Jerusalem</option>
+                    <option value="sacher-park">Gan Sacher, Jerusalem</option>
+                    <option value="gan-hapais">Gan HaPais, Netanya</option>
+                    <option value="eventium">Eventium Hall, Holon</option>
+                    <option value="avenue-airport-city">Avenue, Airport City</option>
+                    <option value="laguna-hall">Laguna Hall, Herzliya</option>
+                    <option value="ritz-carlton">The Ritz-Carlton, Herzliya</option>
+                    <option value="david-intercontinental">David Intercontinental, Tel Aviv</option>
+                    <option value="dan-eilat">Dan Hotel, Eilat</option>
+                </select>
+                <button id="saveBtn">save</button>
+            </div>
+        </article>
+    </div>
+    <script src="ClientJS.js"></script>
+</body>
+</html>

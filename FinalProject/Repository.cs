@@ -79,5 +79,12 @@ namespace MyServer
         {
             return db.Events.ToList();
         }
+        public List<Event> FetchEventsByDate(DateTime date)
+        {
+            return db.Events
+                .Where(e => e.StartDate.Date <= date.Date && e.EndDate.Date >= date.Date)
+                .ToList();
+        }
+
     }
 }

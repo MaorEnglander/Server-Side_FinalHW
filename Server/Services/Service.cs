@@ -81,9 +81,29 @@ namespace Server.Services
             return dto;
 
         }
-    }
+        public List<EventDTO> RetrieveEventsByDate(DateTime date)
+        {
+            List<Event> events = _repository.FetchEventsByDate(date);
+            List<EventDTO> dtoList = new List<EventDTO>();
+
+            foreach (var ev in events)
+            {
+                dtoList.Add(new EventDTO
+                {
+                    Name = ev.Name,
+                    StartDate = ev.StartDate,
+                    EndDate = ev.EndDate,
+                    MaxRegistrations = ev.MaxRegistrations,
+                    Location = ev.Location
+                });
+            }
+
+            return dtoList;
+        }
 
     }
+
+}
 
 
 

@@ -132,6 +132,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Server.Controllers.eventController",
+    "Method": "GetEventsByDate",
+    "RelativePath": "event/bydate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MyServer.DTO.EventDTO, MyServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MyServer.Controllers.scheduleController",
     "Method": "GetAllEventSchedule",
     "RelativePath": "schedule",

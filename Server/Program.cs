@@ -1,7 +1,10 @@
 using Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+{
+    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -12,6 +15,8 @@ builder.Services.AddMemoryCache();
 builder.Services.AddScoped<Service>();
 
 var app = builder.Build();
+
+app.UseCors("corsapp");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
